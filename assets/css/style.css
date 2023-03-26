@@ -407,6 +407,77 @@ section {
   transition: 0.9s;
   background-color: #9f30e9;
 }
+.skills .icon-box {
+  margin-bottom: 20px;
+}
+
+.skills .icon {
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
+  background: #9f30e9;
+  border-radius: 50%;
+  transition: 0.5s;
+  border: 1px solid #9f30e9;
+}
+
+.skills .icon i {
+  color: #fff;
+  font-size: 24px;
+  line-height: 0;
+}
+
+.skills .icon-box:hover .icon {
+  background: #fff;
+}
+
+.skills .icon-box:hover .icon i {
+  color: #9f30e9;
+}
+
+
+.skills .title {
+  margin-left: 80px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.skills .title a {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #343a40;
+}
+
+.skills .description {
+  margin-left: 80px;
+  line-height: 24px;
+  font-size: 14px;
+  display: flex;
+}
+
+.skills .name{
+  width:50%;
+  margin-left: 0%;
+  font-size: 18px;
+  padding: 5px 15px;
+  margin: auto;
+}
+
+.skills .level{
+  width: 50%;
+  background: #f4e4f9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  text-align: center;
+  margin: auto;
+}
 
 /*--------------------------------------------------------------
 # Resume
