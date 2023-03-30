@@ -9,7 +9,7 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-p{
+p {
   text-align: justify;
 }
 
@@ -148,6 +148,27 @@ h6 {
   #main {
     margin-left: 0;
   }
+}
+
+.lang-selection {
+  margin-top: 20px;
+  align-self: center;
+  display: table;
+  width: 50%;
+  table-layout: fixed;
+}
+
+.lang-selection span {
+  display: table-cell;
+  text-align: center;
+}
+
+.lang-selection a{
+  color: white;
+}
+
+.lang-selection a:hover {
+  color: #9314dd;
 }
 
 /*--------------------------------------------------------------
@@ -432,13 +453,13 @@ section {
   display: flex;
 }
 
-.skills .name{
+.skills .name {
   width: 50%;
   font-size: 18px;
   margin: auto;
 }
 
-.skills .level{
+.skills .level {
   width: 50%;
   background: #f2e4f9;
   padding: 5px;
@@ -867,7 +888,7 @@ section {
 }
 
 .contact .info .email:hover i,
-.contact .info .phone:hover i, 
+.contact .info .phone:hover i,
 .contact .info .linkedin:hover i {
   background: #9f30e9;
   color: #fff;
